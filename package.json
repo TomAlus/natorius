@@ -4,7 +4,7 @@
   "description": "Modern Landing page with HTML and CSS",
   "main": "index.js",
   "scripts": {
-    "scss": "sass -w sass:css"
+    "scss": "sass -w scss:css"
   },
   "repository": {
     "type": "git",
