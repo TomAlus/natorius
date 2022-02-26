@@ -1,0 +1,23 @@
+{
+  "name": "natorus",
+  "version": "1.0.0",
+  "description": "Modern Landing page with HTML and CSS",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass -w sass:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomAlus/natorius.git"
+  },
+  "keywords": [],
+  "author": "Tomasz Klekner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomAlus/natorius/issues"
+  },
+  "homepage": "https://github.com/TomAlus/natorius#readme",
+  "devDependencies": {
+    "scss": "^0.2.4"
+  }
+}
