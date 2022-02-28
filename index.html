@@ -68,12 +68,14 @@
           <span class="heading-primary--sub">is where life happens</span>
         </h1>
 
-        <a class="btn btn--white btn--animated" href="#">Discover our tours</a>
+        <a class="btn btn--white btn--animated" href="#section-tours"
+          >Discover our tours</a
+        >
       </div>
     </header>
 
     <main>
-      <section class="section-about">
+      <section id="section-about" class="section-about">
         <div class="u-center-text u-margin-bottom-large">
           <h2 class="heading-secondary">
             Exciting tours for adventurous people
@@ -120,7 +122,7 @@
         </div>
       </section>
 
-      <section class="section-features">
+      <section id="section-features" class="section-features">
         <div class="row">
           <div class="col-1-of-4">
             <div class="feature-box">
@@ -167,7 +169,7 @@
         </div>
       </section>
 
-      <section class="section-tours">
+      <section id="section-tours" class="section-tours">
         <div class="u-center-text u-margin-bottom-large">
           <h2 class="heading-secondary">Most Popular Tours</h2>
         </div>
@@ -197,7 +199,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">$249</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book Now!</a>
+                  <a href="#popup" class="btn btn--white">Book Now!</a>
                 </div>
               </div>
             </div>
@@ -227,7 +229,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">$249</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book Now!</a>
+                  <a href="#popup" class="btn btn--white">Book Now!</a>
                 </div>
               </div>
             </div>
@@ -257,7 +259,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">$249</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book Now!</a>
+                  <a href="#popup" class="btn btn--white">Book Now!</a>
                 </div>
               </div>
             </div>
@@ -269,7 +271,7 @@
         </div>
       </section>
 
-      <section class="section-stories">
+      <section id="section-stories" class="section-stories">
         <div class="bg-video">
           <video class="bg-video__content" autoplay muted loop>
             <source src="./img/video.mp4" type="video/mp4" />
@@ -331,7 +333,7 @@
         </div>
       </section>
 
-      <section class="section-book">
+      <section id="section-book" class="section-book">
         <div class="row">
           <div class="book">
             <div class="book__form">
@@ -395,51 +397,75 @@
           </div>
         </div>
       </section>
-
-      <footer class="footer">
-        <div class="footer__logo-box">
-          <img src="./img/logo-green-2x.png" alt="Logo" class="footer__logo" />
-        </div>
-
-        <div class="row">
-          <div class="col-1-of-2">
-            <div class="footer__navigation">
-              <ul class="footer__list">
-                <li class="footer__item">
-                  <a href="" class="footer__link">Company</a>
-                </li>
-                <li class="footer__item">
-                  <a href="" class="footer__link">Contact Us</a>
-                </li>
-                <li class="footer__item">
-                  <a href="" class="footer__link">Careers</a>
-                </li>
-                <li class="footer__item">
-                  <a href="" class="footer__link">Privacy policy</a>
-                </li>
-                <li class="footer__item">
-                  <a href="" class="footer__link">Terms</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-1-of-2">
-            <p class="footer__copyright">
-              Built by
-              <a href="#" class="footer__link">Tomasz Klekner</a> Copyright
-              &copy; by
-              <a
-                class="footer__link"
-                href="https://www.udemy.com/user/jonasschmedtmann/"
-                >Jonas Schmedtmann</a
-              >. You are 100% allowed to use this webpage for both personal and
-              commercial use, but NOT to claim it as your own design. A credit
-              to the original author, Jonas Schmedtmann, is of course highly
-              appreciated!
-            </p>
-          </div>
-        </div>
-      </footer>
     </main>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <img src="./img/logo-green-2x.png" alt="Logo" class="footer__logo" />
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="" class="footer__link">Company</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Contact Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Careers</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Privacy policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Built by
+            <a href="#" class="footer__link">Tomasz Klekner</a> Copyright &copy;
+            by
+            <a
+              class="footer__link"
+              href="https://www.udemy.com/user/jonasschmedtmann/"
+              >Jonas Schmedtmann</a
+            >. You are 100% allowed to use this webpage for both personal and
+            commercial use, but NOT to claim it as your own design. A credit to
+            the original author, Jonas Schmedtmann, is of course highly
+            appreciated!
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div id="popup" class="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img class="popup__img" src="img/nat-8.jpg" alt="Tour photo" />
+          <img class="popup__img" src="img/nat-9.jpg" alt="Tour photo" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-tours" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">
+            Start Booking Now
+          </h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Important &ndash; Please read these terms before booking
+          </h3>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            fugit, possimus recusandae reprehenderit ipsam at sequi placeat illo
+            sapiente! Necessitatibus.
+          </p>
+          <a href="#" class="btn btn--green">Book Now</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
